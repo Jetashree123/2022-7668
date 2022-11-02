@@ -45,7 +45,7 @@ class Account {
 		}
 		else
 		{
-		throw new NegativeIntegerException("Deposite amount should be greater than Zero / Non -ve amount");
+		throw new NegativeIntegerException("Deposite amount should be greater than Zero or Non -ve amount");
 		}
 	
 	}
